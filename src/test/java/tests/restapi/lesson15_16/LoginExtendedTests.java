@@ -209,7 +209,6 @@ import static specs.lesson16.LoginSpec.*;
                     assertEquals("QpwL5tke4Pnpja7X4", response.getToken()));
         }
 
-
         @Test
         void missingPasswordTest() {
             LoginBodyLombokModel authData = new LoginBodyLombokModel();
